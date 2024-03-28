@@ -19,6 +19,7 @@ const Computers = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <pointLight intensity={1} />
+      <ambientLight intensity={2}/>
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.7 : 0.75}
