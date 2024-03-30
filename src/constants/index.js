@@ -1,28 +1,30 @@
 import {
-    backend,
-    carrent,
-    creator,
-    css,
-    docker,
-    figma,
-    git,
-    html,
-    javascript,
-    jobit,
-    meta,
-    mobile,
-    mongodb,
-    nodejs,
-    reactjs,
-    redux,
-    shopify,
-    starbucks,
-    tailwind,
-    tesla,
-    threejs,
-    tripguide,
-    typescript,
-    web,
+  backend,
+  creator,
+  css,
+  docker,
+  enfanato,
+  figma,
+  git,
+  glorify,
+  html,
+  javascript,
+  meta,
+  mobile,
+  mobile3d,
+  mongodb,
+  nfthub,
+  nodejs,
+  reactjs,
+  redux,
+  shopify,
+  starbucks,
+  tailwind,
+  tesla,
+  threejs,
+  tripify,
+  typescript,
+  web
 } from "../assets";
   
   export const navLinks = [
@@ -198,12 +200,66 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Trip Finder",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Certainly! Trip Finder is a user-friendly trip booking website that allows travelers to search, compare, and book flights, hotels, and activities seamlessly. Trip Finder simplifies the travel experience.🌍✈️",
       tags: [
         {
           name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripify,
+      live_site_link: "https://trip-finder-swart.vercel.app/",
+      source_code_link: "https://github.com/shabbirbd/Trip-finder",
+    },
+    {
+      name: "NFT Hub",
+      description:
+        "NFTHub is a dynamic NFT marketplace where creators, collectors, and enthusiasts converge. Discover unique digital assets, from art to virtual real estate, and securely trade them using blockchain technology. Explore, buy, and sell NFTs on NFTHub! 🌟🎨",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nfthub,
+      live_site_link: "https://nft-hub-kohl.vercel.app/",
+      source_code_link: "https://github.com/shabbirbd/NFThub",
+    },
+    {
+      name: "Enfanato",
+      description:
+        "Enfanato is your go-to ecommerce platform for all things baby-related. From adorable clothing and essential gear to eco-friendly toys, they,ve got your little ones covered. Shop with ease and delight on Enfanato! 👶🛒",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: enfanato,
+      live_site_link: "https://enfanato-baby.vercel.app/",
+      source_code_link: "https://github.com/shabbirbd/Enfanato",
+    },
+    {
+      name: "Glorify",
+      description:
+        "Glorify is an innovative AI-powered image generator platform. It empowers users to effortlessly create stunning visuals, from custom graphics to photo enhancements. Unleash your creativity with Glorify! 🎨✨",
+      tags: [
+        {
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
@@ -215,50 +271,31 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: glorify,
+      live_site_link: "https://glorify-liart.vercel.app/",
+      source_code_link: "https://github.com/shabbirbd/Glorify",
     },
     {
-      name: "Job IT",
+      name: "3D Mobile",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This is an innovative platform that allows users to visualize and interact with 3D models of mobile devices. From smartphones to tablets, explore product designs, features, and dimensions in an immersive 3D environment. It is an exact copy of Apple iPhone 15 pro webpage 📱🔍✨",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "three.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: mobile3d,
+      live_site_link: "https://3d-mobile-review.vercel.app/",
+      source_code_link: "https://github.com/shabbirbd/3d_mobile_review",
     },
   ];
   
