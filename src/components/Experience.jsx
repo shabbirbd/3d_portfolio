@@ -13,11 +13,11 @@ const ExperienceCard = ({experience}) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#1d1836",
-        color: "#fff"
+        background: "#050816",
+        color: "#050816"
       }}
       contentArrowStyle={{
-        borderRight: "7px solid #232631"
+        borderRight: "7px solid #050816"
       }}
       date={experience.date}
       iconStyle={{
